@@ -103,3 +103,27 @@ footer {
 footer a {
   text-decoration: none;
 }
+.navbar {
+    background-image: url('./assets/avatar.png');
+    background-size: cover; /* ou ajuste como preferir */
+    background-repeat: no-repeat;
+    height: 50px; /* altura desejada para a barra de links */
+    /* Outros estilos como padding, margin, cor do texto, etc. */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff; /* cor do texto */
+    /* Outros estilos de texto */
+}
