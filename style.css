@@ -1,0 +1,105 @@
+* {
+  /* código para retirar os espaços originais das paginas */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*
+  background-image: url(./assets/new\ brackground.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+  /*background: image no-repeat top center/cover */
+  margin: 0; /* Certifique-se de remover as margens padrão do corpo */
+  padding: 0; /* Certifique-se de remover o preenchimento padrão do corpo */
+  background-image: url(./assets/new\ brackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Isso mantém a imagem fixa enquanto a página é rolada */
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+#conteiner {
+  width: 360px;
+  margin: auto; /*código para centralizar um "sólido"*/
+  padding: 150px 24px;
+}
+#profile img {
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+#profile p {
+  text-align: center; /*codigo para por o texto no centro*/
+  line-height: 16px;
+  margin-top: 15px;
+}
+/*Links*/
+ul {
+  list-style: none;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  padding: 16px 24px;
+  align-items: center;
+  background: rgba(202, 202, 202, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 61px;
+  backdrop-filter: blur(0.5px); /*desfoque de fundo do background*/
+  -webkit-backdrop-filter: blur(0.5px);
+  text-decoration: none; /*retirar a linha embaixo do texto*/
+  transition: background 0.5s; /*animação de um background pra outro*/
+}
+/*pseudo selector: animação de seleção*/
+ul li a:hover {
+  background: rgba(202, 202, 202, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+/*social links*/
+#social-links {
+  /* configuração do icone */
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  padding: 16px;
+  font-size: 30px;
+}
+#social-links a {
+  /*alinhamento do background ao icone*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  transition: background 0.5s;
+}
+
+#social-links a:hover {
+  /*configuração de animação do icone*/
+  background: rgba(202, 202, 202, 0.15);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+footer {
+  padding: 100px 0px;
+  text-align: center;
+  font-size: 14px;
+}
+footer a {
+  text-decoration: none;
+}
