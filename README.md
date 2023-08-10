@@ -30,6 +30,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O LucasLinks foi um projeto que agregou links para um cartão de visitas online; Contendo atalhos para redes e contato direto comigo.
 
-- [Acesse o projeto finalizado, online](https://LucassNascimentoo/lucas-project)
+- [Acesse o projeto finalizado, online](https://github.com/LucassNascimentoo/lucas-project#-projeto)
 
 Created By [Lucas Nascimento](https://api.whatsapp.com/send/?phone=%2B5527999007373&text&type=phone_number&app_absent=0)
